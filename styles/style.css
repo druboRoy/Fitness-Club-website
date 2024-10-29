@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+body {
+    background: rgb(185, 185, 185);
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    gap: 3em;
+}
+
+nav {
+    justify-content: space-between;
+    padding-top: 4em;
+}
+
+nav h4 {
+    color: rgb(230, 83, 60);
+    font-size: 2.2em;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+nav ul div {
+    display: none;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.3em;
+    border-radius: 3em;
+    background: rgb(230, 83, 60);
+    padding: 0.5em 1.3em 0.5em 1.3em;
+    border: none;
+}
+
+body>header {
+    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%), linear-gradient(00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.4) 100%);
+    ;
+}
+
+body>header>.header {
+    max-width: 66.25em;
+    margin: 0px auto;
+}
+
+.banner {
+    justify-content: space-between;
+    margin-top: 6em;
+}
+
+.banner-content {
+    max-width: 32.5em;
+}
+
+.banner-content h2 {
+    color: rgb(255, 255, 255);
+    font-size: 4.8em;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 1.8rem;
+}
+
+.banner-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.8rem;
+}
+
+.special-fonts {
+    font-family: Dancing Script;
+    font-weight: 500;
+    font-size: 8rem;
+}
+
+.btn-sec {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+
+.box {
+    width: 150px;
+    /* height: 85px; */
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    position: absolute;
+    top: 556px;
+    right: 470px;
+}
+
+.sub-box1 {
+    height: 2rem;
+    width: 2rem;
+    background: rgb(230, 83, 60);
+    border-radius: 100%;
+}
+
+.sub-box2 h4 {
+    color: rgb(250, 250, 249);
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 1.6rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.5rem;
+}
+
+.sub-box2 p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width:576px) {
+
+    .header {
+        padding: 0 1rem;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    nav ul .icon {
+        display: inline;
+        color: white;
+    }
+
+    section.banner {
+        flex-direction: column;
+    }
+
+    .box {
+        display: none;
+    }
+
+}
